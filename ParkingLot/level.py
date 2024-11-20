@@ -21,6 +21,7 @@ class Level:
         return True
     return False
   
+  
   def display_availability(self):
     print(f"Level {self.floor} Availability:")
     for spot in self.parking_spots:
